@@ -8,6 +8,7 @@ const appsDir = path.join(root, "apps");
 const categories = new Set([
   "Games",
   "Finance",
+  "Bridges",
   "Social",
   "ID",
   "Supply Chain",
@@ -15,13 +16,16 @@ const categories = new Set([
   "Education",
   "Prediction Markets",
   "AI",
+  "Tools",
 ]);
+const networks = new Set(["mainnet", "testnet", "mainnet-and-testnet"]);
 const walletCompat = new Set(["compatible", "planned", "not-compatible", "unknown"]);
 const listingStatuses = new Set(["official", "foundation-maintained", "community", "experimental", "deprecated"]);
 const required = [
   "id",
   "productName",
   "category",
+  "network",
   "creator",
   "openSource",
   "browserWalletCompatibility",
@@ -74,6 +78,7 @@ function validateEntry(file, entry) {
   if (!/^[a-z0-9][a-z0-9-]{1,62}[a-z0-9]$/.test(entry.id)) fail(file, "id must be a lowercase slug");
   assertString(file, entry, "productName", 2, 80);
   if (!categories.has(entry.category)) fail(file, `category must be one of: ${[...categories].join(", ")}`);
+  if (!networks.has(entry.network)) fail(file, "network must be mainnet, testnet, or mainnet-and-testnet");
   assertString(file, entry, "creator", 2, 80);
   if (typeof entry.openSource !== "boolean") fail(file, "openSource must be boolean");
   if (!walletCompat.has(entry.browserWalletCompatibility)) fail(file, "browserWalletCompatibility has an invalid value");

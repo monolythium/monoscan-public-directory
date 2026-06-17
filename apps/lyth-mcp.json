@@ -1,0 +1,16 @@
+{
+  "id": "lyth-mcp",
+  "productName": "Lyth MCP",
+  "category": "Tools",
+  "network": "testnet",
+  "creator": "Monolythium",
+  "openSource": true,
+  "browserWalletCompatibility": "not-compatible",
+  "browserWalletNotes": "This is an MCP/CLI tool for assistants, live-chain reads, runbooks, and local wallet flows; it is not a browser dApp.",
+  "listingStatus": "foundation-maintained",
+  "tagline": "A Monolythium MCP server for live-chain reads, AI runbooks, local agent-wallet flows, and transaction drafting.",
+  "description": "Lyth MCP lets AI assistants inspect Monolythium testnet state, look up accounts and transactions, list markets, run safety checks, manage local encrypted agent-wallet workflows, and draft wallet approval payloads without silently spending funds.",
+  "sourceUrl": "https://github.com/monolythium/lyth_mcp",
+  "docsUrl": "https://github.com/monolythium/lyth_mcp/blob/main/README.md",
+  "lastReviewedAt": "2026-06-17"
+}

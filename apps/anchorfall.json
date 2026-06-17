@@ -2,6 +2,7 @@
   "id": "anchorfall",
   "productName": "Anchorfall",
   "category": "Games",
+  "network": "testnet",
   "creator": "Monolythium",
   "openSource": true,
   "browserWalletCompatibility": "compatible",

@@ -19,6 +19,7 @@ Every listing must:
 
 - use one of the allowed categories;
 - include a clear creator or maintainer;
+- declare its network as `mainnet`, `testnet`, or `mainnet-and-testnet`;
 - state whether the product is open source;
 - state browser wallet compatibility as `compatible`, `planned`, `not-compatible`, or `unknown`;
 - avoid claims like "audited", "official", "safe", or "endorsed" unless public evidence supports that status;

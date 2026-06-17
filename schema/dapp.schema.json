@@ -8,6 +8,7 @@
     "id",
     "productName",
     "category",
+    "network",
     "creator",
     "openSource",
     "browserWalletCompatibility",
@@ -30,14 +31,19 @@
       "enum": [
         "Games",
         "Finance",
+        "Bridges",
         "Social",
         "ID",
         "Supply Chain",
         "Healthcare",
         "Education",
         "Prediction Markets",
-        "AI"
+        "AI",
+        "Tools"
       ]
+    },
+    "network": {
+      "enum": ["mainnet", "testnet", "mainnet-and-testnet"]
     },
     "creator": {
       "type": "string",

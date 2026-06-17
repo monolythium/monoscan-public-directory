@@ -6,6 +6,7 @@ Describe what this PR adds or changes.
 
 - [ ] I ran `npm run validate`.
 - [ ] The listing uses one of the allowed categories.
+- [ ] The network field is accurate: `mainnet`, `testnet`, or `mainnet-and-testnet`.
 - [ ] The creator/maintainer is accurate.
 - [ ] Browser wallet compatibility is supported by public evidence or marked `planned` / `unknown`.
 - [ ] URLs use HTTPS and point to the intended project.

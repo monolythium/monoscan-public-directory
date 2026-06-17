@@ -8,6 +8,7 @@ The directory is a discovery list for products that build on, integrate with, or
 
 - Games
 - Finance
+- Bridges
 - Social
 - ID
 - Supply Chain
@@ -15,6 +16,7 @@ The directory is a discovery list for products that build on, integrate with, or
 - Education
 - Prediction Markets
 - AI
+- Tools
 
 ## Repository Layout
 
@@ -32,6 +34,8 @@ The directory is a discovery list for products that build on, integrate with, or
 5. Open a pull request with evidence for the listing fields.
 
 Monoscan maintainers may ask for changes when the submission is missing ownership proof, uses unsafe wording, points to a broken URL, or claims compatibility that cannot be verified publicly.
+
+Every listing must also declare whether it is available on `mainnet`, `testnet`, or `mainnet-and-testnet`.
 
 ## Listing Status
 
