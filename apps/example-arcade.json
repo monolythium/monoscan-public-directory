@@ -1,0 +1,17 @@
+{
+  "id": "example-arcade",
+  "productName": "Example Arcade",
+  "category": "Games",
+  "network": "testnet",
+  "creator": "Example Studio",
+  "openSource": true,
+  "browserWalletCompatibility": "planned",
+  "browserWalletNotes": "Demo-only PR entry showing where a contributor would describe wallet support evidence.",
+  "listingStatus": "community",
+  "tagline": "A demo-only listing that shows contributors how to format a Monoscan dApp directory PR.",
+  "description": "Example Arcade is not intended for merge. It is a sample listing used to demonstrate the one-file JSON contribution flow, category selection, network labeling, source fields, and browser wallet compatibility notes expected in a real directory pull request.",
+  "websiteUrl": "https://example.com/example-arcade",
+  "sourceUrl": "https://example.com/example-arcade/source",
+  "docsUrl": "https://example.com/example-arcade/docs",
+  "lastReviewedAt": "2026-06-17"
+}
