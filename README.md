@@ -6,16 +6,16 @@ The directory is a discovery list for products that build on, integrate with, or
 
 ## Categories
 
-- Games
-- Finance
-- Bridges
-- Social
-- ID
-- Supply Chain
-- Healthcare
-- Education
-- Prediction Markets
 - AI
+- Bridges
+- Education
+- Finance
+- Games
+- Healthcare
+- ID
+- Prediction Markets
+- Social
+- Supply Chain
 - Tools
 
 ## Repository Layout
@@ -49,7 +49,7 @@ Every listing must also declare whether it is available on `mainnet`, `testnet`,
 
 Monoscan must show a leaving-site warning before users follow a dApp link:
 
-> You are leaving Monoscan. Listed dApps may be community-built and are not necessarily operated, audited, or endorsed by the Monolythium Foundation. Review the destination before connecting a wallet.
+> You are leaving Monoscan. Listed dApps, bridges, and tools may be community-built and are not necessarily operated, audited, or endorsed by the Monolythium Foundation. Review the destination before connecting a wallet or moving funds.
 
 ## Review Expectations
 

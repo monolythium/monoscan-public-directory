@@ -6,16 +6,16 @@ const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const appsDir = path.join(root, "apps");
 
 const categories = new Set([
-  "Games",
-  "Finance",
-  "Bridges",
-  "Social",
-  "ID",
-  "Supply Chain",
-  "Healthcare",
-  "Education",
-  "Prediction Markets",
   "AI",
+  "Bridges",
+  "Education",
+  "Finance",
+  "Games",
+  "Healthcare",
+  "ID",
+  "Prediction Markets",
+  "Social",
+  "Supply Chain",
   "Tools",
 ]);
 const networks = new Set(["mainnet", "testnet", "mainnet-and-testnet"]);
