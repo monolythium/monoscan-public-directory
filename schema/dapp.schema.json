@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/monolythium/monoscan-public-directory/schema/dapp.schema.json",
+  "title": "Monoscan dApp Directory Entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "productName",
+    "category",
+    "creator",
+    "openSource",
+    "browserWalletCompatibility",
+    "listingStatus",
+    "tagline",
+    "description",
+    "lastReviewedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,62}[a-z0-9]$"
+    },
+    "productName": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "category": {
+      "enum": [
+        "Games",
+        "Finance",
+        "Social",
+        "ID",
+        "Supply Chain",
+        "Healthcare",
+        "Education",
+        "Prediction Markets",
+        "AI"
+      ]
+    },
+    "creator": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 80
+    },
+    "openSource": {
+      "type": "boolean"
+    },
+    "browserWalletCompatibility": {
+      "enum": ["compatible", "planned", "not-compatible", "unknown"]
+    },
+    "browserWalletNotes": {
+      "type": "string",
+      "maxLength": 360
+    },
+    "listingStatus": {
+      "enum": ["official", "foundation-maintained", "community", "experimental", "deprecated"]
+    },
+    "tagline": {
+      "type": "string",
+      "minLength": 12,
+      "maxLength": 180
+    },
+    "description": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 1200
+    },
+    "websiteUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "docsUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "contactUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date"
+    }
+  }
+}

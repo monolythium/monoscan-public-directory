@@ -1,0 +1,15 @@
+{
+  "id": "anchorfall",
+  "productName": "Anchorfall",
+  "category": "Games",
+  "creator": "Monolythium",
+  "openSource": true,
+  "browserWalletCompatibility": "compatible",
+  "browserWalletNotes": "Wallet sign-in and score receipt flows are wired on the app side; on-chain leaderboard deployment is pending upstream MRV runtime surfaces.",
+  "listingStatus": "foundation-maintained",
+  "tagline": "A tactical co-op game showing how a browser game can use Monolythium wallet identity and app-layer receipts.",
+  "description": "Anchorfall is a separate game and dApp showcase, not blockchain core logic. The listing demonstrates wallet-based identity, server-issued run receipts, and the path toward deployable app contracts for rankings and rewards.",
+  "sourceUrl": "https://github.com/monoplay-xyz/anchorfall-ts-game",
+  "docsUrl": "https://github.com/monoplay-xyz/anchorfall-ts-game/blob/main/docs/WEB3-GOAL.md",
+  "lastReviewedAt": "2026-06-17"
+}
